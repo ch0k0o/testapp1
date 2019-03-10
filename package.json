@@ -1,0 +1,19 @@
+{
+  "name": "githubapp",
+  "version": "1.0.0",
+  "description": "Application to interact with GitHub’s API and return data for certain repos from a GitHub organization",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Kadanov",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "boom": "^7.3.0",
+    "hapi": "^18.1.0",    
+    "jsonwebtoken": "^8.5.0",
+    "node-cache": "^4.2.0",
+    "request": "^2.88.0"
+  }
+}
